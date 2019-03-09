@@ -1,65 +1,65 @@
 ---
-# ¸ß¿ÉÓÃ½Úµã1µÄÅäÖÃ
+# é«˜å¯ç”¨èŠ‚ç‚¹1çš„é…ç½®
 server:
   port: 8771
 spring:
-  # ½Úµã1µÄ±êÇ©
+  # èŠ‚ç‚¹1çš„æ ‡ç­¾
   profiles: peer1
-  # ·şÎñÃû±£³ÖÒ»ÖÂ
+  # æœåŠ¡åä¿æŒä¸€è‡´
   application:
     name: eureka-ha
 eureka:
   instance:
     hostname: peer1
   client:
-    # ½øĞĞ×¢²á£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è¿›è¡Œæ³¨å†Œï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # registerWithEureka: true
-    # »ñÈ¡×¢²áĞÅÏ¢£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è·å–æ³¨å†Œä¿¡æ¯ï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # fetchRegistry: true
     serviceUrl:
-      # ½Úµã1Ïò½Úµã2/3½øĞĞ·şÎñ×¢²á
-      defaultZone: http://localhost:8772/eureka/,http://localhost:8773/eureka/
+      # èŠ‚ç‚¹1å‘èŠ‚ç‚¹2/3è¿›è¡ŒæœåŠ¡æ³¨å†Œ
+      defaultZone: http://peer2:8772/eureka/,http://peer3:8773/eureka/
 
 ---
-# ¸ß¿ÉÓÃ½Úµã2µÄÅäÖÃ
+# é«˜å¯ç”¨èŠ‚ç‚¹2çš„é…ç½®
 server:
   port: 8772
 spring:
-  # ½Úµã2µÄ±êÇ©
+  # èŠ‚ç‚¹2çš„æ ‡ç­¾
   profiles: peer2
-  # ·şÎñÃû±£³ÖÒ»ÖÂ
+  # æœåŠ¡åä¿æŒä¸€è‡´
   application:
     name: eureka-ha
 eureka:
   instance:
     hostname: peer2
   client:
-    # ½øĞĞ×¢²á£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è¿›è¡Œæ³¨å†Œï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # registerWithEureka: true
-    # »ñÈ¡×¢²áĞÅÏ¢£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è·å–æ³¨å†Œä¿¡æ¯ï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # fetchRegistry: true
     serviceUrl:
-      # ½Úµã2Ïò½Úµã1/3½øĞĞ·şÎñ×¢²á
-      defaultZone: http://localhost:8771/eureka/,http://localhost:8773/eureka/
+      # èŠ‚ç‚¹2å‘èŠ‚ç‚¹1/3è¿›è¡ŒæœåŠ¡æ³¨å†Œ
+      defaultZone: http://peer1:8771/eureka/,http://peer3:8773/eureka/
 
 ---
-# ¸ß¿ÉÓÃ½Úµã3µÄÅäÖÃ
+# é«˜å¯ç”¨èŠ‚ç‚¹3çš„é…ç½®
 server:
   port: 8773
 spring:
-  # ½Úµã3µÄ±êÇ©
+  # èŠ‚ç‚¹3çš„æ ‡ç­¾
   profiles: peer3
-  # ·şÎñÃû±£³ÖÒ»ÖÂ
+  # æœåŠ¡åä¿æŒä¸€è‡´
   application:
     name: eureka-ha
 eureka:
   instance:
     hostname: peer3
   client:
-    # ½øĞĞ×¢²á£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è¿›è¡Œæ³¨å†Œï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # registerWithEureka: true
-    # »ñÈ¡×¢²áĞÅÏ¢£¨¸ß¿ÉÓÃÅäÖÃ¡¢Ä¬ÈÏÅäÖÃ£©
+    # è·å–æ³¨å†Œä¿¡æ¯ï¼ˆé«˜å¯ç”¨é…ç½®ã€é»˜è®¤é…ç½®ï¼‰
     # fetchRegistry: true
     serviceUrl:
-      # ½Úµã3Ïò½Úµã1/2½øĞĞ·şÎñ×¢²á
-      defaultZone: http://localhost:8771/eureka/,http://localhost:8772/eureka/
+      # èŠ‚ç‚¹3å‘èŠ‚ç‚¹1/2è¿›è¡ŒæœåŠ¡æ³¨å†Œ
+      defaultZone: http://peer1:8771/eureka/,http://peer2:8772/eureka/

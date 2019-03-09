@@ -15,6 +15,7 @@
     <module>eureka</module>
     <module>eureka-hi</module>
     <module>eureka-ha</module>
+    <module>eureka-hi-ha</module>
   </modules>
 
   <!--父级：Spring Boot-->

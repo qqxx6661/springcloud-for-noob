@@ -1,13 +1,13 @@
-# ¶Ë¿ÚºÅ
+# ç«¯å£å·
 server:
   port: 8763
-# ·şÎñÃû³Æ£¬¼´serviceId
+# æœåŠ¡åç§°ï¼Œå³serviceId
 spring:
   application:
     name: service-hi
-# ·şÎñ×¢²áÓë·¢ÏÖÏà¹ØÅäÖÃ
+# æœåŠ¡æ³¨å†Œä¸å‘ç°ç›¸å…³é…ç½®
 eureka:
   client:
-    # ·şÎñ×¢²áµØÖ·
+    # æœåŠ¡æ³¨å†Œåœ°å€
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
