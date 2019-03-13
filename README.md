@@ -8,8 +8,9 @@ springcloud新手入门实战教程，由浅入深，配合博客入门教程文
 
 1. [[菜鸟SpringCloud入门]第一章：构建多模块的Maven项目+创建注册中心Eureka子模块](https://blog.csdn.net/qqxx6661/article/details/88367149)
 2. [[菜鸟SpringCloud入门]第二章：创建服务提供者并在Eureka进行注册](https://blog.csdn.net/qqxx6661/article/details/88375904)
-3. [菜鸟SpringCloud入门]第三章：将Eureka改造为高可用集群
-
+3. [[菜鸟SpringCloud入门]第三章：将Eureka改造为高可用集群](https://blog.csdn.net/qqxx6661/article/details/88396539)
+4. [[菜鸟SpringCloud入门]第四章：远程调用服务实战](https://blog.csdn.net/qqxx6661/article/details/88430062)
+5. 熔断器Hystrix的使用 + 可视化熔断器监控Hystrix Dashboard和Turbine
 
 # 关注我
 
