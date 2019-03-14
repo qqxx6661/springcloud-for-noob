@@ -1,0 +1,12 @@
+# 服务地址
+server:
+  port: 8783
+# 服务名称
+spring:
+  application:
+    name: service-hi-ha
+eureka:
+  client:
+    serviceUrl:
+      # 这里只需要执行其中一个服务注册中心节点即可
+      defaultZone: http://peer1:8771/eureka/

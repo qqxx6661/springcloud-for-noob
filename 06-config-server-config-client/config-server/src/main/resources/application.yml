@@ -1,0 +1,13 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  # 配置git仓库的地址
+          search-paths: config-repo                     # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: xxxxx                               # git仓库的账号
+          password: xxxxx                               # git仓库的密码

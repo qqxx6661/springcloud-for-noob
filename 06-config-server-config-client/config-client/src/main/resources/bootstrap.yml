@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: spring-cloud-config
+      profile: dev
+      uri: http://localhost:8769/
+      label: master
