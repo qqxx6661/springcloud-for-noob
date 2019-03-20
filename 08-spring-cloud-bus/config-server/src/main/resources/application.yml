@@ -1,0 +1,32 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://xxxxx.git # 配置git仓库的地址
+          search-paths: config-repo                              # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: xxxxxxx                                     # git仓库的账号
+          password: xxxxxxx                                   # git仓库的密码
+    # kafka
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+    bus:
+      trace:
+        enabled: true
+# 客户端调用需要
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+# 在服务中心注册
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

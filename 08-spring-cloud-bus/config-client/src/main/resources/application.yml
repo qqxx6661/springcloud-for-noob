@@ -1,0 +1,11 @@
+server:
+  port: 8771
+spring:
+  application:
+    name: spring-cloud-config-client
+# 发送POST请求需要：curl -v -X POST "http://localhost:8002/actuator/refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

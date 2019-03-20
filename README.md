@@ -3,7 +3,8 @@
 springcloud新手入门实战教程，由浅入深，配合博客入门教程文章食用，风味极佳。
 
 
-努力更新中...
+每篇文章对应一个子文件夹，子文件夹之间无关联，每个子文件夹都是独立项目，可单独导入IDEA等IDE中进行部署。
+
 
 
 01. [[菜鸟SpringCloud入门]第一章：构建多模块的Maven项目+创建注册中心Eureka子模块](https://blog.csdn.net/qqxx6661/article/details/88367149)
@@ -12,6 +13,7 @@ springcloud新手入门实战教程，由浅入深，配合博客入门教程文
 04. [[菜鸟SpringCloud入门]第四章：远程调用服务实战](https://blog.csdn.net/qqxx6661/article/details/88430062)
 05. [[菜鸟SpringCloud实战入门]第五章：熔断器Hystrix的使用 + 可视化监控Hystrix Dashboard和Turbine](https://blog.csdn.net/qqxx6661/article/details/88559088)
 06. [[菜鸟SpringCloud实战入门]第六章：配置中心Spring Cloud Config初体验](https://blog.csdn.net/qqxx6661/article/details/88604499)
+07. [[菜鸟SpringCloud实战入门]第七章：配置中心客户端主动刷新机制 + 配置中心服务化和高可用改造](https://blog.csdn.net/qqxx6661/article/details/88629694)
 
 # 关注我
 
