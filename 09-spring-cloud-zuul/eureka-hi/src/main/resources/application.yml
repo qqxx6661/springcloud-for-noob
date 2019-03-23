@@ -1,0 +1,13 @@
+# 端口号
+server:
+  port: 8763
+# 服务名称，即serviceId
+spring:
+  application:
+    name: service-hi
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 服务注册地址
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,17 @@
+# 端口号
+server:
+  port: 8761
+# 服务注册相关配置
+eureka:
+  # 服务实例主机名
+  instance:
+    hostname: localhost
+  # 服务提供者配置
+  client:
+    # 不进行注册（当服务注册中心是单点而非高可用时的配置方式）
+    registerWithEureka: false
+    # 不获取注册信息（当服务注册中心是单点而非高可用时的配置方式）
+    fetchRegistry: false
+    # 服务注册中心地址
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
