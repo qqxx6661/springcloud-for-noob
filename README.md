@@ -14,63 +14,42 @@ springcloud新手入门实战教程，由浅入深，配合博客入门教程文
 05. [[菜鸟SpringCloud实战入门]第五章：熔断器Hystrix的使用 + 可视化监控Hystrix Dashboard和Turbine](https://blog.csdn.net/qqxx6661/article/details/88559088)
 06. [[菜鸟SpringCloud实战入门]第六章：配置中心Spring Cloud Config初体验](https://blog.csdn.net/qqxx6661/article/details/88604499)
 07. [[菜鸟SpringCloud实战入门]第七章：配置中心客户端主动刷新机制 + 配置中心服务化和高可用改造](https://blog.csdn.net/qqxx6661/article/details/88629694)
+08. [[菜鸟SpringCloud实战入门]第八章：通过消息总线Spring Cloud Bus实现配置文件刷新（使用Kafka）](https://blog.csdn.net/qqxx6661/article/details/88701051)
+09. [[菜鸟SpringCloud实战入门]第九章：服务网关Zuul体验](https://blog.csdn.net/qqxx6661/article/details/88767696)
+10. [[菜鸟SpringCloud实战入门]第十章：分布式链路跟踪 Sleuth和Zipkin](https://blog.csdn.net/qqxx6661/article/details/88781748)
+
+
+
+
+
 
 # 关注我
 
-我是蛮三刀把刀，后端开发。
+我是蛮三刀把刀，后端开发。主要关注后端开发，数据安全，爬虫等方向。微信：yangzd1102
 
-主要关注后端开发，数据安全，爬虫等方向。
+Github：[@qqxx6661](https://github.com/qqxx6661)
 
-来微信和我聊聊：yangzd1102
+个人博客：
 
-Github个人主页：[https://github.com/qqxx6661](https://github.com/qqxx6661)
+- CSDN：[@qqxx6661](http://blog.csdn.net/qqxx6661)
+- 知乎：[@Zhendong](https://www.zhihu.com/people/yang-zhen-dong-1/)
+- 简书：[@蛮三刀把刀](https://www.jianshu.com/u/b5f225ca2376)
+- 掘金：[@蛮三刀把刀](https://juejin.im/user/5b48015ce51d45191462ba55)
 
 ### 原创博客主要内容
 
 - Java知识点复习全手册
 - Leetcode算法题解析
 - 剑指offer算法题解析
-- Python爬虫相关技术实战
-- 后端开发相关技术实战
-- SpringCloud入门实战
-
-**同步更新公众号及以下博客**
-
-**1. Csdn**
-
-[http://blog.csdn.net/qqxx6661](http://blog.csdn.net/qqxx6661)
-
-拥有专栏：
-
-- Leetcode题解（Java/Python）
-- Python爬虫实战
-- Java程序员知识点复习手册
-- SpringCloud入门实战
-
-**2. 知乎**
-
-[https://www.zhihu.com/people/yang-zhen-dong-1/](https://www.zhihu.com/people/yang-zhen-dong-1/)
-
-拥有专栏：
-
-- Java程序员面试复习手册
-- LeetCode算法题详解与代码实现
-- 后台开发实战
-
-**3. 掘金**
-
-[https://juejin.im/user/5b48015ce51d45191462ba55](https://juejin.im/user/5b48015ce51d45191462ba55)
-
-**4. 简书**
-
-[https://www.jianshu.com/u/b5f225ca2376](https://www.jianshu.com/u/b5f225ca2376)
+- SpringCloud菜鸟入门实战系列
+- SpringBoot菜鸟入门实战系列
+- Python爬虫相关技术文章
+- 后端开发相关技术文章
 
 
 ### 个人公众号：Rude3Knife
 
-![个人公众号：Rude3Knife](https://img-blog.csdnimg.cn/20190226163135670.png)
+![个人公众号：Rude3Knife](https://user-gold-cdn.xitu.io/2019/3/23/169aa975f8c1fa3c?w=263&h=265&f=png&s=44022)
 
 **如果文章对你有帮助，不妨收藏起来并转发给您的朋友们~**
-
-
 

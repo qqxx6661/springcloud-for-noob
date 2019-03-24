@@ -1,0 +1,21 @@
+# 端口号
+server:
+  port: 8763
+# 服务名称，即serviceId
+spring:
+  application:
+    name: service-hi
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+  zipkin:
+    base-url: http://localhost:9411/ # 指定了 Zipkin 服务器的地址
+# 服务注册与发现相关配置
+eureka:
+  client:
+    # 服务注册地址
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
