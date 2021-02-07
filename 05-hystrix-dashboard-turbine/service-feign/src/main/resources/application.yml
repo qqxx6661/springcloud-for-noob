@@ -1,10 +1,10 @@
 server:
   # 服务端口号
-  port: 8766
+  port: 8765
 spring:
   application:
     # 服务名，即serviceId
-    name: service-feign-2
+    name: service-feign-1
 eureka:
   client:
     serviceUrl:

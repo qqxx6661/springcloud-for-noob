@@ -1,12 +1,16 @@
 server:
-  # ·şÎñ¶Ë¿ÚºÅ
+  # æœåŠ¡ç«¯å£å·
   port: 8765
 spring:
   application:
-    # ·şÎñÃû£¬¼´serviceId
+    # æœåŠ¡åï¼Œå³serviceId
     name: service-feign
 eureka:
   client:
     serviceUrl:
-      # °²È«ÈÏÖ¤µÄ·şÎñ×¢²áÖĞĞÄµØÖ·
+      # å®‰å…¨è®¤è¯çš„æœåŠ¡æ³¨å†Œä¸­å¿ƒåœ°å€
       defaultZone: http://localhost:8761/eureka
+feign:
+  hystrix:
+    enabled: true
+
